@@ -22,7 +22,7 @@ const upgradeBanner = computed(() => {
       class="app-logo d-flex align-center gap-x-3 app-title-wrapper"
     >
       <!-- ℹ️ You can also use img tag or VImg here -->
-      // eslint-disable-next-line vue/no-v-html
+      
       <div v-html="logo" />
 
       <Transition name="vertical-nav-app-title">
