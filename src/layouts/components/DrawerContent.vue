@@ -22,11 +22,12 @@ const upgradeBanner = computed(() => {
       class="app-logo d-flex align-center gap-x-3 app-title-wrapper"
     >
       <!-- ℹ️ You can also use img tag or VImg here -->
+      // eslint-disable-next-line vue/no-v-html
       <div v-html="logo" />
 
       <Transition name="vertical-nav-app-title">
         <h1 class="font-weight-semibold leading-normal text-xl text-uppercase">
-          Materio
+          Super CRM
         </h1>
       </Transition>
     </RouterLink>
@@ -119,7 +120,7 @@ const upgradeBanner = computed(() => {
 
   <!-- 👉 illustration -->
   <a
-    href="https://themeselection.com/item/materio-vuetify-vuejs-admin-template"
+    href="#"
     target="_blank"
     rel="noopener noreferrer"
   >
